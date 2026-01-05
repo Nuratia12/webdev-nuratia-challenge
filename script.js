@@ -1,3 +1,5 @@
+const { response } = require("express");
+
 document.addEventListener("DOMContentLoaded", () => {
   const title = document.querySelector("h1");
   const nav = document.querySelector("nav");
@@ -46,6 +48,5 @@ window.addEventListener("scroll", () => {
     document.body.style.background = ""; 
   }
 });
-
 
 });
